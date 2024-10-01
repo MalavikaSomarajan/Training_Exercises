@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    
+}
+.navigation{
+    background-color: black;
+}
+
+.navigation li{
+    float: left;
+    list-style: none;
+}
+
+.navigation ul{
+   overflow: hidden;
+   padding: 5px;
+   padding-left: 550px;
+   
+}
+
+.navigation ul li a {
+   color: white;
+   text-decoration: none;
+   padding: 15px;  
+   
+}
+
+.container {
+    display: flex;
+    height: 100vh; 
+}
+
+.left {
+    width: 30%; 
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.right {
+    width: 70%; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+table{
+    width: 100px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+    
+th{
+    border: 1px  solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+td{
+    border: 1px  solid black; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
