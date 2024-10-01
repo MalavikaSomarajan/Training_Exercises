@@ -1,0 +1,121 @@
+.navigation{
+    background-color: black;
+}
+
+.navigation li{
+    float: left;
+    list-style: none;
+}
+
+.navigation ul{
+   overflow: hidden;
+   padding: 5px;
+   padding-left: 600px;
+   
+}
+
+.navigation ul li a {
+   color: white;
+   text-decoration: none;
+   padding: 15px;
+  
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.universal{
+        background-color: rgb(233, 233, 233);
+        font-size: large;
+        color: rgb(0, 0, 0);
+        padding: 5px;
+        padding-left: 30px;
+        line-height: 45px;
+        
+}
+.type{
+    background-color: rgb(233, 230, 230);
+    font-size: large;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    padding-left: 30px;
+    line-height: 35px;
+    
+}
+h5 {
+    color: #0056b3;
+    font-size:large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.select{
+    background-color: yellow;
+    padding: 5px;
+    padding-left: 30px;
+    line-height: 35px;
+}
+.id{
+    background-color: rgb(233, 233, 233);
+    font-size: large;
+    padding: 5px;
+    padding-left: 30px;
+    line-height: 45px;
+}
+#unique {
+    background-color: #dad1d1;
+    color: rgb(72, 2, 2);
+    padding: 20px;
+    
+}
+.attribute{
+        background-color: rgb(233, 233, 233);
+        padding: 5px;
+        padding-left: 30px;
+        line-height: 45px;
+}
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+.descendant{
+        background-color: rgb(233, 233, 233);
+        padding: 5px;
+        padding-left: 30px;
+        line-height: 45px;
+}
+div p{
+    color: rgb(4, 35, 35);
+}
+
+.child{
+    background-color: rgb(233, 233, 233);
+    padding: 5px;
+    padding-left: 30px;
+    line-height: 35px; 
+}
+ol>li{
+    list-style: none;
+}
+.adjacent{
+    background-color: rgb(233, 233, 233);
+    padding: 5px;
+    padding-left: 30px;
+    line-height: 45px;
+}
+h4+p{
+   margin-bottom: 0;
+}
+h4~p{
+    color: green;
+}
+

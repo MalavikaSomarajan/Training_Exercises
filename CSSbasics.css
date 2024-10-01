@@ -1,0 +1,87 @@
+
+.navigation{
+    background-color: black;
+}
+
+.navigation li{
+    float: left;
+    list-style: none;
+}
+
+.navigation ul{
+   overflow: hidden;
+   padding: 5px;
+   padding-left: 600px;
+   
+}
+
+.navigation ul li a {
+   color: white;
+   text-decoration: none;
+   padding: 15px;
+  
+}
+
+.introduction{
+    background-color: rgb(196, 196, 196);
+    font-size: large;
+    color: rgb(87, 7, 7);
+    padding: 5px;
+    padding-left: 30px;
+    line-height: normal;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.box {
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 28%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.box h3 {
+    margin-top: 0;
+    color: #333;
+}
+.box p {
+    color: #4f4e4e;
+}
+
+.pseudo{
+    background-color: rgb(196, 196, 196);
+    padding: 5px;
+    padding-left: 30px;
+    
+}
+.pseudo ul li a:link {
+    color: #0000ff; 
+}
+.pseudo ul li a:visited {
+    color: #800080; 
+}
+.pseudo ul li a:hover {
+    color: #0fe90f;
+}
+.pseudo ul li a:active {
+    color: #f2ff00; 
+}
+.pseudo ul li a:focus {
+    color: #00eeff; 
+}
+
+.pelements::before {
+    content: "Start: ";
+   
+    color: #15800f;
+}
+.pelements::after {
+    content: "End";
+    color:#15800f ;
+    
+}

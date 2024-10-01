@@ -1,0 +1,49 @@
+.title{
+    background-color: rgb(220, 219, 219);
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.container1 {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 50px auto;
+    background-color: lightgray;
+}
+
+
+.draggable-box {
+    position:relative;
+    width: 80px;
+    height: 50px;
+    background-color:rgb(47, 175, 47);
+    display: flex;
+    color: white;
+    padding: 12px 20px;
+    transition:transform 0.5s;
+    margin-top: 100px;
+    margin-left: 180px;
+
+}
+.draggable-box:hover{
+    transform: translate(100px,100px);
+}
+
+
+.container2 {
+    position: absolute;
+    left: 100px;
+    width: 100px;
+    height: 60px;
+    background-color: rgb(55, 116, 177);
+    display: flex;
+    margin-left: 60px;
+    color: white;
+    transition:transform 0.5s;
+}
+.container2:hover{
+    transform: translate(100px,100px);
+}

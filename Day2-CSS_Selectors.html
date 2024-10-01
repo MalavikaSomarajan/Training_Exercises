@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Practice</title>
+    <link rel="stylesheet" href="CSSselectors.css">
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">CSS Selectors Practice</h1>
+        <br>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br><br>
+    <div class="universal">
+        <h3>Universal Selector Example</h3>
+        <p>This paragraph is styled using Universal Selector(*) which applies to all elements.</p>
+    </div>
+    <br>
+    <div class="type">
+        <h3>Type Selector Example</h3>
+        <h5>Headings and Paragraphs</h5>
+        <p>This is an example of paragraph styled in type selector.</p>
+    </div>
+    <br>
+    <div class="select">
+        <h3>Class Selector Example</h3>
+        <p>This section is styled using a class selector named select</p>
+    </div>
+    <br>
+    <div class="id" id="unique">
+        <h3>ID Selector Example</h3>
+        <p>This section is styled using an ID selector named #unique</p>
+    </div>
+    <br>
+    <div class="attribute">
+        <h3>Attribute Selector Example</h3>
+        <h4>Type your name here:</h4>
+        <form>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+        </form>
+    </div>
+    <br>
+    <div class="descendant">
+        <h3>Descendant Selector Example</h3>
+        <p>This paragraph is inside a div and styled by a Descendant Selector(div p)</p>
+    </div>
+    <br>
+    <div class="child">
+        <h3>Child Selector Example</h3>
+        <ol>
+            <li>First child item styled using Child Selector(ol>li)</li>
+            <li>Another child item in the list</li>
+        </ol>
+    </div>
+    <br>
+    <div class="adjacent">
+        <h3>Adjacent Sibling Selector Example</h3>
+        <h4>This is a heading</h4>
+        <p>This paragraph styled as an Adjacent Sibling to the above heading (h4+p)</p>
+    </div>
+    <br>
+    <div class="adjacent">
+        <h3>General Sibling Selector Example</h3>
+        <h4>Another Heading</h4>
+        <p>This paragraph styled as an General Sibling to the above heading (h4~p)</p>
+        <p>Another paragraph styled in same way</p>
+    </div>
+    <br>
+    <br>
+    <footer style="text-align: center; color: rgb(141, 139, 139);">
+        <p>2024 CSS Selectors Practice
+        
+      </footer>
+
+</body>
+</html>
