@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management</title>
+    <link rel="stylesheet" href="inventory.css">
+    <script src="inventory.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Inventory Manager</h1>
+
+        <div class="form-group">
+            <label for="productName">Name:</label>
+            <input type="text" id="productName" placeholder="Enter product name">
+        </div>
+
+        <div class="form-group">
+            <label for="productPrice">Price:</label>
+            <input type="number" id="productPrice" placeholder="Enter product price">
+        </div>
+
+        <div class="form-group">
+            <label for="productQuantity">Quantity:</label>
+            <input type="number" id="productQuantity" placeholder="Enter product quantity">
+        </div>
+
+        <button onclick="addProduct()">Add Product</button>
+
+        <div id="inventory-list">
+            <h3>Inventory List</h3>
+         <table id="inventoryTable" style="display: none;">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody id="inventoryBody">
+    
+            </tbody>
+         </table>
+      </div>
+    </div>
+
+</body>
+</html>
