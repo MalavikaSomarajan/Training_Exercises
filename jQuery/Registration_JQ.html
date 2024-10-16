@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Registration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="Registration_JQ.css">   
+    <script src="JQuery/jquery-3.7.1.min.js"></script>
+    <script src="Registration_JQ.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Create Your Account</h1>
+        <h2>Join us today and start your journey!</h2>
+        <form id="registration-form">
+            <!-- Personal Information -->
+            <div class="form-group">
+                <input type="text" id="first-name" required>
+                <label for="first-name">First Name</label>
+                <div class="error" id="first-name-error"></div>
+            </div>
+            <div class="form-group">
+                <input type="text" id="last-name" required>
+                <label for="last-name">Last Name</label>
+                <div class="error" id="last-name-error"></div>
+            </div>
+            <div class="form-group">
+                <input type="date" id="dob" min="1950" required>
+                <label for="dob">Date of Birth</label>
+            </div>
+            <div class=" radio-group">
+                <label>Gender:</label>
+                <label><input type="radio" name="gender" value="Male"> Male</label>
+                <label><input type="radio" name="gender" value="Female"> Female</label>
+                <label><input type="radio" name="gender" value="Other"> Other</label>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="phone">
+                 <div class="form-group">
+                 <input type="text" id="phone-number"required>
+                 <label for="phone-number">Phone Number</label>
+                 <div class="error" id="phone-error"></div>
+                 </div>
+             </div>
+
+            <div class="form-group">
+                <input type="email" id="email" required>
+                <label for="email">Email Address</label>
+                <div class="error" id="email-error"></div>
+            </div>
+
+            <!-- Address -->
+            <div class="form-group">
+                <textarea id="address" rows="3" required></textarea>
+                <label for="address">Address</label>
+            </div>
+            <div class="form-group">
+                <select id="state" required>
+                    <option value="" disabled selected>Select State</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Kerala">Kerala</option>
+                </select>
+                <label for="state">State</label>
+            </div>
+            <div class="form-group">
+                <select id="city" required>
+                    <option value="" disabled selected>Select City</option>
+                </select>
+                <label for="city">City</label>
+            </div>
+
+            <!-- Account Information -->
+            <div class="form-group">
+                <input type="text" id="username" required>
+                <label for="username">Username</label>
+                <div class="error" id="username-error"></div>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" required>
+                <label for="password">Password</label>
+                <div class="error" id="password-error"></div>
+            </div>
+            <div class="form-group">
+                <input type="password" id="confirm-password" required>
+                <label for="confirm-password">Confirm Password</label>
+                <div class="error" id="confirm-password-error"></div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="btn-group">
+                <button type="button" class="btn btn-secondary" id="back-btn">Back</button>
+                <button type="submit" class="btn btn-primary" id="sign-up-btn">Sign Up</button>
+            </div>
+        </form>
+
+        <div class="footer-text">
+            Already have an account? <a href="#">Log in</a>
+        </div>
+    </div>   
+</body>
+</html>

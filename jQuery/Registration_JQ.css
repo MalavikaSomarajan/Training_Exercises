@@ -1,0 +1,164 @@
+     * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f0f4f7, #d9e9f5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 18px;
+            color: #555;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea{
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        .form-group label {
+            position: absolute;
+            top: 10;
+            left: 10px;
+            background: white;
+            padding: 0 5px;
+            color: #777;
+            transition: all 0.3s ease;
+            pointer-events: none;
+        }
+
+        .form-group input:focus + label,
+        .form-group input:not(:placeholder-shown) + label,
+        .form-group select:focus + label,
+        .form-group select:not([value=""]) + label,
+        .form-group textarea:focus + label,
+        .form-group textarea:not(:placeholder-shown) + label {
+            top: -12px;
+            font-size: 12px;
+            color: #333;
+        }
+
+        .form-group .error {
+            color: red;
+            font-size: 12px;
+        }
+
+        .form-group input[type="date"] {
+            padding-right: 35px;
+            font-size: small;
+        }
+        .radio-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            position: relative;
+            font-size: small;
+        }
+        .form-group select{
+            font-size: small;
+        }
+
+        .btn-group {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .btn {
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .btn-primary {
+            background: linear-gradient(45deg, #1e90ff, #00d26a);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: linear-gradient(45deg, #1a75e0, #00ba55);
+        }
+
+        .btn-secondary {
+            background: #ccc;
+            color: #333;
+        }
+
+        .btn-secondary:hover {
+            background: #bbb;
+        }
+
+        .footer-text {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .footer-text a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+
+        .footer-text a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 16px;
+            }
+
+            .btn {
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
+    
